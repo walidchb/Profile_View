@@ -1,0 +1,78 @@
+/* Colors :
+
+Dark cyan: hsl(185, 75%, 39%)
+Very dark desaturated blue: hsl(229, 23%, 23%)
+Dark grayish blue: hsl(227, 10%, 46%)
+Dark gray: hsl(0, 0%, 59%)
+
+Font :
+- Family: [Kumbh Sans](https://fonts.google.com/specimen/Kumbh+Sans)
+- Size : 18px
+- Weights: 400, 700 */
+* {
+    padding: 0px ;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+#PrincipleDIV {
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 300px;
+    height: 320px;
+    overflow: hidden;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+#SecondDIV {
+    padding: 7px;
+    border-top: 2px hsl(227, 10%, 46%) solid;
+    margin: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+} 
+
+.one {
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+}
+
+#have { 
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+#wsh {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    border: 5px white solid;
+    margin-top: -60px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.bold {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.grey_text {
+    color:hsl(227, 10%, 46%) ;
+    font-family: 'Bebas Neue', cursive;
+}
